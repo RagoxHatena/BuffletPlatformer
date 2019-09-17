@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: eb7912b715041604aa3411661d9455c1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Power Clear
+  fontNames:
+  - Power Clear
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a0569cbb242798d47b3211aec0034338, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
