@@ -24,11 +24,7 @@ public class HealPlayer : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            if(FindObjectOfType<HealthManager>().CurrentHP >= FindObjectOfType<HealthManager>().MaxHP)
-            {
-
-            }
-            else
+            if(FindObjectOfType<HealthManager>().CurrentHP < FindObjectOfType<HealthManager>().MaxHP)
             {
                 FindObjectOfType<HealthManager>().HealPlayer(toHeal);
                 Instantiate(pickupEffect, transform.position, transform.rotation);
